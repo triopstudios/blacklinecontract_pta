@@ -1,0 +1,28 @@
+# Unreal Engine build/cache artifacts (always regenerable, never versioned)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+*.sln
+*.VC.db
+*.opensdf
+*.sdf
+*.opendb
+
+# Third-party marketplace asset packs — excluded intentionally.
+# See README.md for why: licensing (EULA restricts redistribution) and
+# size (no Git LFS is used in this repo). Reacquire these packs from
+# Fab/Unreal Marketplace to open Content/Demo.umap locally.
+Content/Venice/
+Content/OutpostandBunker/
+Content/AmsterdamStreet/
+Content/Soldiers_Mega_Bundle/
+Content/DEFINITIVE_FPS_KIT/
+Content/ShooterAI/
+Content/__ExternalActors__/
+Content/__ExternalObjects__/
+
+# Marketplace bookmark shortcuts, not project content
+More Assets/
